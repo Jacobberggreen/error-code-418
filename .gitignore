@@ -26,3 +26,6 @@ scripts/art/src/korkat/fonts/
 
 # scratch files
 tmp/
+
+# vite cache
+.vite/
