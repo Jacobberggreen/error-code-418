@@ -6,12 +6,12 @@
 
 <p align="center">
   The portfolio of four interaction designers from Umeå University, and the things we build together.<br>
-  <a href="https://jacobberggreen.github.io/error-code-418-portfolio/"><b>jacobberggreen.github.io/error-code-418-portfolio</b></a>
+  <a href="https://jacobberggreen.github.io/error-code-418/"><b>jacobberggreen.github.io/error-code-418</b></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Jacobberggreen/error-code-418-portfolio/actions/workflows/ci.yml"><img src="https://github.com/Jacobberggreen/error-code-418-portfolio/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/Jacobberggreen/error-code-418-portfolio/actions/workflows/pages.yml"><img src="https://github.com/Jacobberggreen/error-code-418-portfolio/actions/workflows/pages.yml/badge.svg" alt="Deploy"></a>
+  <a href="https://github.com/Jacobberggreen/error-code-418/actions/workflows/ci.yml"><img src="https://github.com/Jacobberggreen/error-code-418/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/Jacobberggreen/error-code-418/actions/workflows/pages.yml"><img src="https://github.com/Jacobberggreen/error-code-418/actions/workflows/pages.yml/badge.svg" alt="Deploy"></a>
   <img src="https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white" alt="React 19">
   <img src="https://img.shields.io/badge/Vite-7-646cff?logo=vite&logoColor=white" alt="Vite 7">
   <img src="https://img.shields.io/badge/license-All%20rights%20reserved-red" alt="All rights reserved">

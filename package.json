@@ -1,17 +1,17 @@
 {
-  "name": "error-code-418-portfolio",
+  "name": "error-code-418",
   "version": "1.0.0",
   "private": true,
   "description": "Portfolio of team Error code 418: four interaction designers from Umeå University.",
   "author": "Team Error code 418",
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://jacobberggreen.github.io/error-code-418-portfolio/",
+  "homepage": "https://jacobberggreen.github.io/error-code-418/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jacobberggreen/error-code-418-portfolio.git"
+    "url": "git+https://github.com/Jacobberggreen/error-code-418.git"
   },
   "bugs": {
-    "url": "https://github.com/Jacobberggreen/error-code-418-portfolio/issues"
+    "url": "https://github.com/Jacobberggreen/error-code-418/issues"
   },
   "engines": {
     "node": ">=20"
