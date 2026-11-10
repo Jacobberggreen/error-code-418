@@ -281,7 +281,7 @@ button { font: inherit; color: inherit; }
   .hero-line { white-space: normal; padding-bottom: 0; }
   .hero-name { display: block; padding-bottom: 0.04em; }
   .hero-num { display: block; font-size: 3.05em; line-height: 0.82; }
-  .script { position: static; display: block; margin: 0 0 0.12em 2%; font-size: 0.32em; }
+  .script { position: static; display: block; margin: 0 0 0.1em 2%; font-size: 0.5em; }
 }
 @media (max-width: 900px) {
   .hero { min-height: 90dvh; }
@@ -292,7 +292,8 @@ button { font: inherit; color: inherit; }
   .case-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
   .case-links .btn { width: 100%; }
   .case-body { grid-template-columns: 1fr; height: auto; min-height: 100%; }
-  .case-art { padding: 72px 16px 16px; }
+  .case-art { padding: 72px 20px 16px; }
+  .modal.case .modal-close { right: 20px; } /* same edge as the picture and the text */
   .case-media { width: 100%; }
   .case-art { padding-top: 72px; }
   .case-copy { overflow: visible; padding: 24px 20px 48px; }
