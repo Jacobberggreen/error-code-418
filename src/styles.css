@@ -285,7 +285,7 @@ button { font: inherit; color: inherit; }
 }
 @media (max-width: 900px) {
   .hero { min-height: 90dvh; }
-  .modal.case { overflow-y: auto; background: rgba(22, 22, 22, 0.92); }
+  .modal.case { overflow-y: auto; background: rgba(22, 22, 22, 0.97); -webkit-backdrop-filter: none; backdrop-filter: none; } /* no live blur while scrolling on a phone */
   /* Controls on a phone: tabs in a 3-wide grid and action buttons in equal columns, all as wide as the picture above. */
   .case-art .tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; min-width: 0; }
   .case-art .tab { padding: 0 6px; }
