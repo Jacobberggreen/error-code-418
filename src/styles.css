@@ -275,9 +275,22 @@ button { font: inherit; color: inherit; }
 .footer-note { font: 500 0.9rem var(--mono); color: var(--muted-2); margin-top: 14px; padding-bottom: 0.9em; }
 
 /* ===== Small screens: every asymmetric layout collapses to one column ===== */
+@media (max-width: 760px) {
+  /* Phone hero: "Team" above, "Error code" on one line, "418" below at the same width. 4.409em and 3.176em are the measured widths of the two words in Bricolage 800, so both fill the line. */
+  .hero h1 { font-size: calc(100cqi / 4.409); line-height: 0.9; }
+  .hero-line { white-space: normal; padding-bottom: 0; }
+  .hero-name { display: block; padding-bottom: 0.04em; }
+  .hero-num { display: block; font-size: 3.05em; line-height: 0.82; }
+  .script { position: static; display: block; margin: 0 0 0.12em 2%; font-size: 0.32em; }
+}
 @media (max-width: 900px) {
   .hero { min-height: 90dvh; }
-  .modal.case { overflow-y: auto; }
+  .modal.case { overflow-y: auto; background: rgba(22, 22, 22, 0.92); }
+  /* Controls on a phone: tabs in a 3-wide grid and action buttons in equal columns, all as wide as the picture above. */
+  .case-art .tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; min-width: 0; }
+  .case-art .tab { padding: 0 6px; }
+  .case-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .case-links .btn { width: 100%; }
   .case-body { grid-template-columns: 1fr; height: auto; min-height: 100%; }
   .case-art { padding: 72px 16px 16px; }
   .case-media { width: 100%; }
