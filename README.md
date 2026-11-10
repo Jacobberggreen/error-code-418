@@ -2,8 +2,6 @@
   <img src="docs/banner.png" alt="Error code 418" width="720">
 </p>
 
-<h1 align="center">Error code 418</h1>
-
 <p align="center">
   The portfolio of four interaction designers from Umeå University.<br>The things we build together, at hackathons and beyond.<br>
   <a href="https://jacobberggreen.github.io/error-code-418/"><b>jacobberggreen.github.io/error-code-418</b></a>
