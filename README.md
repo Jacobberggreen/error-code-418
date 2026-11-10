@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="public/images/banner.webp" alt="Déjà View, a project by team Error code 418" width="720">
+  <img src="docs/banner.png" alt="Error code 418" width="720">
 </p>
 
 <h1 align="center">Error code 418</h1>
 
 <p align="center">
-  The portfolio of four interaction designers from Umeå University, and the things we build together.<br>
+  The portfolio of four interaction designers from Umeå University.<br>The things we build together, at hackathons and beyond.<br>
   <a href="https://jacobberggreen.github.io/error-code-418/"><b>jacobberggreen.github.io/error-code-418</b></a>
 </p>
 
@@ -14,12 +14,12 @@
   <a href="https://github.com/Jacobberggreen/error-code-418/actions/workflows/pages.yml"><img src="https://github.com/Jacobberggreen/error-code-418/actions/workflows/pages.yml/badge.svg" alt="Deploy"></a>
   <img src="https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white" alt="React 19">
   <img src="https://img.shields.io/badge/Vite-7-646cff?logo=vite&logoColor=white" alt="Vite 7">
-  <img src="https://img.shields.io/badge/license-All%20rights%20reserved-red" alt="All rights reserved">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license"></a>
 </p>
 
 ## What this is
 
-A single-page site for **Error code 418**: Jacob Berggren, Omar Lundgren, Sebastian Gabrielsson and Adam Hultgren. It shows what we have built together and who we are.
+A single-page site for **Error code 418**, a team of four interaction designers. It shows what we build together at hackathons and in other projects, and who we are.
 
 - **Work**: an index of projects. Each opens a full-screen case with the walkthrough, the story and the numbers.
 - **Team**: one tile per person, with a profile, the projects they worked on, GitHub and LinkedIn.
@@ -81,4 +81,4 @@ Every push to `main` runs [`pages.yml`](.github/workflows/pages.yml): install, b
 
 ## License
 
-Copyright © 2026 Team Error code 418. All rights reserved. See [LICENSE](LICENSE). You may read the code, but not copy, reuse or redistribute it, or the images, without written permission.
+The code is released under the [MIT License](LICENSE). The text, photos, project images and film in `public/` and `src/data/` belong to the team and are not covered by it.

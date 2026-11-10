@@ -2,9 +2,9 @@
   "name": "error-code-418",
   "version": "1.0.0",
   "private": true,
-  "description": "Portfolio of team Error code 418: four interaction designers from Umeå University.",
+  "description": "Portfolio of team Error code 418: four interaction designers from Umeå University, and what we build together at hackathons and beyond.",
   "author": "Team Error code 418",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "homepage": "https://jacobberggreen.github.io/error-code-418/",
   "repository": {
     "type": "git",
