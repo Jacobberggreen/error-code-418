@@ -33,7 +33,7 @@ React 19 · Vite 7 · plain CSS (no framework) · GSAP for the intro · Phosphor
 
 ```bash
 npm ci
-npm run dev        # http://localhost:5173
+npm run dev
 ```
 
 | Command           | What it does                              |
