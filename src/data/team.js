@@ -1,8 +1,8 @@
 // `linkedin` is the profile path after linkedin.com/in/.
-// Optional per member: `role`, `bio`, `photo` (file name in public/team). Without a photo the card shows initials.
+// Optional per member: `website` (bare domain), `role`, `bio`, `photo` (file name in public/team). Without a photo the card shows initials.
 export const team = [
-  { name: 'Jacob Berggren', github: 'Jacobberggreen', linkedin: 'jacobberggreen/', photo: 'jacob.jpg' },
-  { name: 'Omar Lundgren', github: 'OmarLundgren', linkedin: 'omar-lundgren/', photo: 'omar.jpg' },
+  { name: 'Jacob Berggren', github: 'Jacobberggreen', linkedin: 'jacobberggreen/', website: 'jacobberggren.se', photo: 'jacob.jpg' },
+  { name: 'Omar Lundgren', github: 'OmarLundgren', linkedin: 'omar-lundgren/', website: 'omarlundgren.se', photo: 'omar.jpg' },
   { name: 'Sebastian Gabrielsson', github: 'Zeebooo', linkedin: 'sebastian-gabrielsson-352827384/', photo: 'sebastian.jpg' },
   { name: 'Adam Hultgren', github: 'adamhultgren', linkedin: 'adam-hultgren-4246081a9/', photo: 'adam.jpg' },
 ]

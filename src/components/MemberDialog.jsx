@@ -1,4 +1,4 @@
-import { ArrowUpRight, GithubLogo, LinkedinLogo } from '@phosphor-icons/react'
+import { ArrowUpRight, Globe, GithubLogo, LinkedinLogo } from '@phosphor-icons/react'
 import Modal from './Modal.jsx'
 import { photoOf, initialsOf } from '../data/team.js'
 import { projects } from '../data/projects.js'
@@ -36,6 +36,11 @@ export default function MemberDialog({ view, onClose, onOpenProject }) {
               </div>
             )}
             <p className="case-links">
+              {m.website && (
+                <a className="btn ghost" href={`https://${m.website}`} target="_blank" rel="noreferrer">
+                  <Globe size={18} aria-hidden="true" /> Portfolio <ArrowUpRight size={18} aria-hidden="true" />
+                </a>
+              )}
               <a className="btn ghost" href={`https://github.com/${m.github}`} target="_blank" rel="noreferrer">
                 <GithubLogo size={18} aria-hidden="true" /> GitHub <ArrowUpRight size={18} aria-hidden="true" />
               </a>
